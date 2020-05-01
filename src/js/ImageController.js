@@ -4,7 +4,7 @@ export default class DNDController {
     this.input = document.querySelector('.input');
     this.inputCover = document.querySelector('.input_cover');
     this.imgContainer = document.querySelector('.dowloaded_container');
-    this.server = 'http://localhost:7070/';
+    this.server = 'https://dragndrop-serv.herokuapp.com/';
   }
 
   async init() {
